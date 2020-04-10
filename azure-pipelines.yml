@@ -12,12 +12,6 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- task: DotNetCoreCLI@2
-  displayName: Build
-  inputs:
-    command: build
-    projects: 'DuplicatePhotoFinder\DuplicatePhotoFinder.Console\DuplicatePhotoFinder.Console.csproj'
-    arguments: '--configuration Release' # Update this to match your need
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
