@@ -8,7 +8,6 @@ namespace DuplicatePhotoFinder.Console
         static void Main(string[] args)
         {
             System.Console.WriteLine("Hello World!");
-            Class1 C = new Class1();
             System.Console.Read();
         }
     }
