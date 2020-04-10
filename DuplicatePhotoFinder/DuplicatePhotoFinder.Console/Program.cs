@@ -1,5 +1,5 @@
 ﻿using System;
-using DuplicatePhotoFinder.Logic;
+using DuplicatePhotofinder.Logic;
 
 namespace DuplicatePhotoFinder.Console
 {

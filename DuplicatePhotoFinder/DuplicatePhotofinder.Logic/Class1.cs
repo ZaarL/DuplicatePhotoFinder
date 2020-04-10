@@ -1,4 +1,4 @@
-﻿namespace DuplicatePhotoFinder.Logic
+﻿namespace DuplicatePhotofinder.Logic
 {
     public class Class1
     {
