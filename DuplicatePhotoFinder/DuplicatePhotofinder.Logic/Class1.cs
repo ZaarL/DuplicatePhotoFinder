@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DuplicatePhotoFinder.Logic
+﻿namespace DuplicatePhotoFinder.Logic
 {
     public class Class1
     {
