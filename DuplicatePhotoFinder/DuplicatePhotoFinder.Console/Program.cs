@@ -1,5 +1,5 @@
 ﻿using System;
-using DuplicatePhotofinder.Logic;
+using System.Configuration;
 
 namespace DuplicatePhotoFinder.Console
 {
@@ -7,6 +7,7 @@ namespace DuplicatePhotoFinder.Console
     {
         static void Main(string[] args)
         {
+            var path = ConfigurationManager.AppSettings.Get("Path");
             System.Console.WriteLine("Hello World!");
             System.Console.Read();
         }
